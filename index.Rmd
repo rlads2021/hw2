@@ -1,0 +1,31 @@
+---
+author: "未命名 B01203004 一般系"
+title: "HW 2: 試試水溫"
+date: |
+  | 2021-03-04
+  |
+  | [Rmd Source (for TAs)](./index.Rmd){download='`r basename(getwd())`.Rmd'}
+output:
+  html_document:
+    number_sections: yes
+    highlight: tango
+    toc: yes
+    toc_float:
+      collapsed: no
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,comment = '#>',error=TRUE, results = 'hold', out.width='65%', fig.align = 'center')
+```
+
+
+# R Help Page
+
+```{r, code=xfun::read_utf8('Q1.R')}
+```
+
+# 工作目錄
+
+```{r, code=xfun::read_utf8('Q2.R')}
+```
