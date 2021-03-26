@@ -43,3 +43,12 @@
 ## 尋求幫助
 
 若有問題，請至 [`rlads2021/hw2` 的 Issues](https://github.com/rlads2021/hw2/issues) 提出，提問前請**務必先閱讀[提問注意事項](https://lopentu.github.io/rlads2021/lab/#qa-guide)**。
+
+
+## 環境問題
+
+此次作業需在 Terminal 執行 `Rscript` 指令以及將 R Markdown 輸出成 HTML。目前已知在 Mac 以及 Windows 上可能都會出現問題:
+
+- 如果你是 Windows 但無法透過 `Rscript -e 'rmarkdown::render("index.Rmd")'` 輸出 HTML，請在完成 `Q1.R` 以及 `Q2.R` 之後，直接以 RStudio 開啟 `index.Rmd` 輸出 `index.html`
+
+- 如果你是 Mac 但無法透過 `Rscript -e 'rmarkdown::render("index.Rmd")'` 輸出 HTML，請[先安裝 Pandoc](https://pandoc.org/installing.html)。若仍無法輸出，請先確定你的 Terminal 是 zsh (新版 Mac 電腦) 或是 bash (舊版 Mac 電腦)，並參考 [issue 3](https://github.com/rlads2021/hw2/issues/3) 的作法
