@@ -51,4 +51,4 @@
 
 - 如果你是 Windows 但無法透過 `Rscript -e 'rmarkdown::render("index.Rmd")'` 輸出 HTML，請在完成 `Q1.R` 以及 `Q2.R` 之後，直接以 RStudio 開啟 `index.Rmd` 輸出 `index.html`
 
-- 如果你是 Mac 但無法透過 `Rscript -e 'rmarkdown::render("index.Rmd")'` 輸出 HTML，請[先安裝 Pandoc](https://pandoc.org/installing.html)。若仍無法輸出，請先確定你的 Terminal 是 zsh (新版 Mac 電腦) 或是 bash (舊版 Mac 電腦)，並參考 [issue 3](https://github.com/rlads2021/hw2/issues/3) 的作法
+- 如果你是 Mac 但無法透過 `Rscript -e 'rmarkdown::render("index.Rmd")'` 輸出 HTML，請[先安裝 Pandoc](https://pandoc.org/installing.html)。若仍無法輸出，請先確定你的 Terminal 是 zsh (新版 Mac 電腦) 還是 bash (舊版 Mac 電腦)，並參考 [issue 3](https://github.com/rlads2021/hw2/issues/3) 的作法
